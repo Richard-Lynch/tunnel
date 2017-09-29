@@ -27,7 +27,8 @@ while true ; do
 			exit;;
 		*)
 			echo "Yes or no only please";;
-esac
+    esac
+done
 
 
 
