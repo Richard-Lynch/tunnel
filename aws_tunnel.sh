@@ -16,7 +16,7 @@ dockerPort="22"
 
 # ------------ AWS -------------------
 # locatio in git folder of turing public key
-dockerKeyLocation="./turing"
+dockerKeyLocation="./id_rsa"
 # user on docker
 dockerUser="tcd"
 # port for docker to map to
