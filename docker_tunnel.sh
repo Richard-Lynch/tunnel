@@ -14,6 +14,6 @@ echo "You will be requested to enter the password for $awsUser on AWS" >&2
 ssh -f -N -T -R $awsPort:localhost:$dockerPort $awsUser@$awsAddress
 echo "Adding key to docker" >&2
 cat id_rsa.pub >> ~/.ssh/authorized_keys
-chmod 600 ~/.ssh/authorized_key
+chmod 600 ~/.ssh/authorized_keys
 echo "Key added to docker" >&2
 

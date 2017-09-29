@@ -22,5 +22,5 @@ dockerUser="tcd"
 # port for docker to map to
 awsPort="22222"
 
-
+ssh-keygen -f "/home/$awsUser/.ssh/known_hosts" -R [localhost]:$awsPort
 ssh -i $dockerKeyLocation -p $awsPort $dockerUser@localhost
